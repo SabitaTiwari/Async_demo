@@ -47,3 +47,8 @@ Install dependencies:
 pip install -r requirements.txt
 Run Project
 uvicorn app.main:app --reload
+API Docs
+
+After running the project, open:
+
+http://127.0.0.1:8000/docs

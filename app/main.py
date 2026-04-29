@@ -15,9 +15,9 @@ async def root():
         "message": "Welcome to Async FastAPI Demo",
         "docs": "/docs",
         "endpoints": [
-            "/api/v1/demo/basic-async",
-            "/api/v1/demo/sequential",
-            "/api/v1/demo/concurrent",
-            "/api/v1/users/1/dashboard",
+            "/api/basic-async",
+            "/api/sequential",
+            "/api/concurrent",
+            "/api/users/1/dashboard",
         ],
     }
